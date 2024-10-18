@@ -1,0 +1,60 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    font-size: 150%;
+}
+
+header {
+    display: flex;
+    background-color: #bfbfff;
+    padding: 32px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header > * {
+    display: block;
+    margin: 32px auto;
+}
+
+header img {
+    width: 50%;
+    object-fit: contain;
+}
+
+main {
+    margin: 32px;
+}
+
+main > section + section {
+    border-top: 2px solid #dfdfdf;
+}
+
+main h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #bfffff;
+    padding: 32px;
+    text-align: center;
+    font-size: 75%;
+}
+
+@media (min-aspect-ratio: 1) {
+    header {
+        flex-direction: row;
+        padding: 64px;
+    }
+
+    header * {
+        margin: auto 32px;
+    }
+
+    header img {
+        width: 20%;
+    }
+}
