@@ -79,3 +79,11 @@ footer {
     text-align: center;
     font-size: 75%;
 }
+
+.small-note {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 75%;
+    color: rgba(0, 0, 0, 0.33);
+}
